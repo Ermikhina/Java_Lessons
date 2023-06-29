@@ -13,10 +13,10 @@ public class Home_work_1_3 {
         double num2 = scanner.nextInt();
         System.out.println("Choose operation: 1 - '+', 2 - '-', 3 - '*', 4 - '/' :");
         int oper = scanner.nextInt();
-        if (oper == 1) System.out.println(num1 + "+" + num2 + "=" + (num1 + num2));
-            else if (oper == 2) System.out.println(num1 + "-" + num2 + "=" + (num1 - num2));
-            else if (oper == 3) System.out.println(num1 + "*" + num2 + "=" + (num1 * num2));
-            else if (oper == 4) System.out.println(num1 + "/" + num2 + "=" + (num1 / num2));
+        if (oper == 1) System.out.println(num1 + " + " + num2 + " = " + (num1 + num2));
+            else if (oper == 2) System.out.println(num1 + " - " + num2 + " = " + (num1 - num2));
+            else if (oper == 3) System.out.println(num1 + " * " + num2 + " = " + (num1 * num2));
+            else if (oper == 4) System.out.println(num1 + " / " + num2 + " = " + (num1 / num2));
         else System.out.println("Incorrect operation");
     }
 }
